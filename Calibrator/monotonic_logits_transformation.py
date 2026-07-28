@@ -9,13 +9,8 @@ import matplotlib.pyplot as plt
 
 _ACTIVATIONS = {
     'tanh':    nn.Tanh,
-    'elu':     nn.ELU,
     'relu':    nn.ReLU,
-    'gelu':    nn.GELU,
     'silu':    nn.SiLU,
-    'sigmoid': nn.Sigmoid,
-    'leaky_relu': nn.LeakyReLU,
-    'softplus': nn.Softplus,
 }
 
 

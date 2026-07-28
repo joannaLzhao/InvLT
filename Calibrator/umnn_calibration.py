@@ -21,7 +21,7 @@ from .umnn import MonotonicNN
 class UMNNCalibration(nn.Module):
 
 
-    def __init__(self, hidden_dims=(10, 10), clip_range=(-20, 20.0),
+    def __init__(self, hidden_dims=(24, 24), clip_range=(-20, 20.0),
                  batch_size=100, loss='mse'):
         super().__init__()
         self.hidden_dims = list(hidden_dims)

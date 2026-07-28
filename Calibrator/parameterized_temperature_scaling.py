@@ -7,12 +7,11 @@ from torch.nn import functional as F
 class ParameterizedTemperatureScaling(nn.Module):
 
     _ACTIVATIONS = {
-        'relu': nn.ReLU, 'silu': nn.SiLU, 'tanh': nn.Tanh, 'gelu': nn.GELU,
-        'elu': nn.ELU, 'sigmoid': nn.Sigmoid, 'softplus': nn.Softplus,
+        'relu': nn.ReLU, 'silu': nn.SiLU, 'tanh': nn.Tanh,
     }
 
-    def __init__(self, n_layers=2, n_nodes=5, top_k_logits=10,
-                 log=True, loss='mse', activation='relu'):
+    def __init__(self, n_layers=3, n_nodes=16, top_k_logits=10,
+                 log=True, loss='mse', activation='tanh'):
         super().__init__()
         self.n_layers = n_layers
         self.n_nodes = n_nodes
