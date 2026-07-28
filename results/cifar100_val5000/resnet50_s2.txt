@@ -1,0 +1,12 @@
+no_calibration             error:0.2136 nll:1.0016 ece:0.1209 mece:0.2992 adaece:0.1197 cece:0.0027 kdeece:0.1448
+temperature_scaling        error:0.2136 nll:1.0016 ece:0.1209 mece:0.2992 adaece:0.1197 cece:0.0027 kdeece:0.1448
+histogram_binning          error:0.2308 nll:2.4628 ece:0.0536 mece:0.3280 adaece:0.0830 cece:0.0019 kdeece:0.0629
+isotonic_regression        error:0.2164 nll:1.3796 ece:0.0660 mece:0.1776 adaece:0.0644 cece:0.0019 kdeece:0.0748
+vector_scaling             error:0.2152 nll:0.9168 ece:0.0589 mece:0.1729 adaece:0.0550 cece:0.0018 kdeece:0.0634
+matrix_scaling             error:0.2278 nll:0.9629 ece:0.0700 mece:0.1902 adaece:0.0700 cece:0.0019 kdeece:0.0760
+dirichlet_calibration      error:0.2211 nll:0.9881 ece:0.0613 mece:0.1647 adaece:0.0605 cece:0.0021 kdeece:0.0655
+pts                        error:0.2136 nll:0.9014 ece:0.0281 mece:0.0737 adaece:0.0305 cece:0.0017 kdeece:0.0289
+ets                        error:0.2136 nll:0.9090 ece:0.0224 mece:0.2037 adaece:0.0237 cece:0.0017 kdeece:0.0245
+spline_calibration         error:0.2137 nll:1.1264 ece:0.0850 mece:0.2290 adaece:0.0836 cece:0.0020 kdeece:0.0944
+umnn_calibration           error:0.2136 nll:0.8172 ece:0.0385 mece:0.0745 adaece:0.0372 cece:0.0016 kdeece:0.0363
+logits_transformation      error:0.2136 nll:0.8079 ece:0.0155 mece:0.0989 adaece:0.0187 cece:0.0016 kdeece:0.0185
