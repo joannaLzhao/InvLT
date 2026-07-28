@@ -99,7 +99,6 @@ evaluate.py     one method, one seed, one task
 rerun_all.py    all methods, all seeds, all seven tasks
 average_seeds.py   collapses per-seed files into mean (std)
 pretrain.py     trains the base networks (not needed to reproduce tables)
-extract_imagenet_logits.py   regenerates the ImageNet logits
 ```
 
 ## NOTES
