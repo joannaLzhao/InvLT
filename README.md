@@ -100,12 +100,3 @@ rerun_all.py    all methods, all seeds, all seven tasks
 average_seeds.py   collapses per-seed files into mean (std)
 pretrain.py     trains the base networks (not needed to reproduce tables)
 ```
-
-## NOTES
-
-- Baselines run at their published defaults.
-- Results are 5-seed means.
-- ECE is a binned statistic and is sensitive to the exact stopping point of
-  training; NLL is far more stable. Small differences between a rerun and the
-  printed tables are expected, especially on ImageNet.
-
